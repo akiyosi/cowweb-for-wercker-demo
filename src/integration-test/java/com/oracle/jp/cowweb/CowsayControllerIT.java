@@ -20,7 +20,7 @@ public class CowsayControllerIT {
         AtomicReference<String> response =
                 new AtomicReference<>(target.request().get(String.class));
 
-        assertEquals("I'm working...", response.get());
+        assertEquals("I'm working......", response.get());
     }
 
 }
